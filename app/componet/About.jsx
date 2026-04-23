@@ -34,7 +34,7 @@ const About = ({ isDarkMode }) => {
        transition={{duration:0.6}}
         className="w-64 sm:w-80 rounded-3xl max-w-none">
           <Image
-            src={assets.user_image}
+            src={assets.profile_img}
             alt=""
             className="w-full rounded-3xl"
           />
