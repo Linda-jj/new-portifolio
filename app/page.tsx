@@ -34,11 +34,11 @@ if(isDarkMode){
     <>
     <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
     <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <About isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <Services isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <Work isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <Contact isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <Footer isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+    <About isDarkMode={isDarkMode}  />
+    <Services  />
+    <Work isDarkMode={isDarkMode}  />
+    <Contact />
+    <Footer isDarkMode={isDarkMode}  />
     </>
    
   );
